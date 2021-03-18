@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        How to use Automatic Sequences Analysis Tool
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The Automatic Sequences Analysis Tool receives a proteic sequence as query and a data base file. Then it is performed a blast to find the top10 sequences that are more similar with the quey. After that it is performed a global alignment of all 11 sequences to draw a philogenetic tree and a graph.
+
+On the MENU we can select to pick examples to understand better how the tool works and at the end start performing the analysis.
+
+
+To run the Automatic Sequences Analysis Tool open the terminal in this directory and write:
+
+                    python3 runMe.py
+
+
+warning: 
+    The program destinates to python version later than 3.0
+    To write an option whenever is asked, don't use " " or ' ', it is not necessary!
+    Make sure your query file have fasta format, like the example file in the folder: "source.fasta"
+    Make sure your database file have text format, like the example file in the folder: "seqdump.txt"
+    Make sure your substitution matrix is similar to the one in the folder: "blosum62.mat"
+
+
+Features included in this tool:
+    - Menu where you can select what you prefer to perform first
+    - Examples to see how the tool works
+    - Files for the examples: source.fasta as reference and seqdump.txt for database.
+
+
+
+
+
+
+Any problem must be reported to
+up201804188@fc.up.pt
